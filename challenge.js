@@ -35,10 +35,10 @@ console.log("Data 1:", markBmi, johnBmi)
 console.log(markBmi > johnBmi)
 
 if (markBmi > johnBmi) {
-  console.log("Mark's BMI is higher than John's!")
+  console.log(`Mark's BMI (${markBmi}) is higher than John's (${johnBmi})!`)
 } else {
 
-  console.log("John's BMI is higher than Mark's!")
+  console.log(`John's BMI (${johnBmi}) is higher than Mark's (${markBmi})!`)
 }
 
 markMass = 95;
@@ -89,8 +89,8 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 
 
 if (markBmi > johnBmi) {
-  console.log("Mark's BMI is higher than John's!")
+  console.log(`Mark's BMI (${markBmi}) is higher than John's (${johnBmi})!`)
 } else {
 
-  console.log("John's BMI is higher than Mark's!")
+  console.log(`John's BMI (${johnBmi}) is higher than Mark's (${markBmi})!`)
 }
